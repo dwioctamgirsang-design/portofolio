@@ -1,0 +1,28 @@
+body {
+  min-height: 3000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #8db6bc;
+}
+section {
+  padding-top: 5rem;
+}
+
+.cert {
+  text-align: left;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: var(--low);
+}
+.cert-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cert h3 {
+  font: 600 18px/1.35 var(--sans);
+  margin-top: 6px;
+}
